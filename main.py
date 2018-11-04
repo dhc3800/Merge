@@ -37,6 +37,21 @@ for i in range(len(api_directions)):
 
 print(directions)
 
+
+
+while len(directions)>0:
+    [my directions]
+    [the api which gives distance between two pairs of lat, lng] <= 100:
+        print('merge')
+        directions.pop(0)
+    
+
+
+
+class HomePageHandler(webapp2.RequestHandler):
+    def get(self):
+        pass
+
 jinja_current_directory = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
     extensions=['jinja2.ext.autoescape'],
